@@ -1,5 +1,5 @@
 {
-    "name": "eslint-import-resolver-jsconfig",
+    "name": "@jacksongross/eslint-import-resolver-jsconfig",
     "version": "1.0.0",
     "description": "Resolver for eslint-plugin-import to import alias from jsconfig paths",
     "main": "index.js",
