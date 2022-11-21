@@ -11,7 +11,9 @@ exports.resolve = function (source, file, config) {
     let jsConfig;
     let packageDir;
 
-    let configPath = typeof _configPath === "string" ? path.resolve(_configPath) : _configPath;
+    let configPath = typeof _configPath === "string" && _configPath.startsWith('.')
+        ? path.resolve(_configPath)
+        : _configPath;
 
     if (!configPath || typeof configPath === "string") {
         if (!configPath || !path.isAbsolute(configPath)) {

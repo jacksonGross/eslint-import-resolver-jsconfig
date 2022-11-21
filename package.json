@@ -15,11 +15,11 @@
         "create-react-app",
         "cra"
     ],
-    "author": "idonotknowwhoiam ",
+    "author": "jacksonGross ",
     "license": "ISC",
     "repository": {
         "type": "git",
-        "url": "https://github.com/idonotknowwhoiam/eslint-import-resolver-jsconfig.git"
+        "url": "https://github.com/jacksonGross/eslint-import-resolver-jsconfig.git"
     },
     "dependencies": {
         "find-root": "^1.1.0",
